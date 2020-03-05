@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4185360970598681987}
   - component: {fileID: 8443737012324216081}
   - component: {fileID: 1892606419290296000}
-  - component: {fileID: 1034252908131061317}
   - component: {fileID: 5038028520703207509}
+  - component: {fileID: -676472392512219586}
   m_Layer: 0
   m_Name: Candy 2
-  m_TagString: Candy
+  m_TagString: Choclate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,18 +106,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1034252908131061317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1034252908131061316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef1313c60d68d14181968c1b64b09cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5038028520703207509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +119,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &-676472392512219586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034252908131061316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef1313c60d68d14181968c1b64b09cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5546088540197990143
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 8432342382764653315}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Candy
+  m_TagString: Choclate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
