@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -676472392512219586}
   m_Layer: 0
   m_Name: Candy 2
-  m_TagString: Choclate
+  m_TagString: Sugar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 8432342382764653315}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Choclate
+  m_TagString: Sugar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

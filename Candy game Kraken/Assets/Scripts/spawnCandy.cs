@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class spawnCandy : MonoBehaviour
 {
-    public GameObject prefab1, prefab2, prefab3;
-    public float spawnRate;
+    public GameObject prefab1, prefab2, prefab3, prefab4, prefab5, prefab6;
+    public float spawnRate = 1;
     float nextSpawn = 0f;
     int whatToSpawn;
     
@@ -15,7 +15,7 @@ public class spawnCandy : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             whatToSpawn = Random.Range(1, 6);
-            Debug.Log(whatToSpawn);
+            //Debug.Log(whatToSpawn);
 
             switch (whatToSpawn)
             {
@@ -28,6 +28,15 @@ public class spawnCandy : MonoBehaviour
                     break;
                 case 3:
                     Instantiate(prefab3, transform.position, Quaternion.identity);
+                    break;
+                case 4:
+                    Instantiate(prefab4, transform.position, Quaternion.identity);
+                    break;
+                case 5:
+                    Instantiate(prefab5, transform.position, Quaternion.identity);
+                    break;
+                case 6:
+                    Instantiate(prefab6, transform.position, Quaternion.identity);
                     break;
             }
 

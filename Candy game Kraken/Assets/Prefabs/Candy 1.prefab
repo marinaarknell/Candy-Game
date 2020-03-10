@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 1892606419290296000}
   - component: {fileID: 5038028520703207509}
   - component: {fileID: 7542336833446407284}
+  - component: {fileID: 7096937973065858410}
+  - component: {fileID: 5450385598192656028}
   m_Layer: 0
   m_Name: Candy 1
-  m_TagString: Cake
+  m_TagString: Sugar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -131,6 +133,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef1313c60d68d14181968c1b64b09cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7096937973065858410
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034252908131061316}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &5450385598192656028
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034252908131061316}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: e52673674e807c341ac8581d17f16759, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &6740465419638400173
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +179,7 @@ GameObject:
   - component: {fileID: 1506577005795265283}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Cake
+  m_TagString: Sugar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

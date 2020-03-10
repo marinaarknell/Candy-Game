@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
 
     public Slider slider;
-    
 
     public void SetMaxHealth (int health)
     {
@@ -18,5 +18,10 @@ public class HealthBar : MonoBehaviour
     public void SetHealth(int health)
     {
         slider.value = health;
+    }
+    
+    public void SetEnergy(int energy)
+    {
+        slider.value = energy;
     }
 }

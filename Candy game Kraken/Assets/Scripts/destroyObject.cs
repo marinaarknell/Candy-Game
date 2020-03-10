@@ -10,7 +10,6 @@ public class destroyObject : MonoBehaviour
         if (collision.gameObject.tag == "Main Character")
         {
             Destroy(this.gameObject);
-
         }
     }
 }
