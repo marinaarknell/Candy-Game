@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 92cebf922f58a164fa946c1e830d8c49
+  - enabled: 1
+    path: Assets/Scenes/Arvid's Scene.unity
+    guid: 142b7d329f5790d47b6a5b6213894e17
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 92d0b51f2672d99458104d9f1c4da67e
   m_configObjects: {}

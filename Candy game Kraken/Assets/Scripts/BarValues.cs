@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BarValues : MonoBehaviour
 {
     public HealthBar Bar;
     public HealthBar energyBar;
     int value = 100;
+    public int maxHealth;
     public int health;
     public float stamina;
     public float maxStamina;
@@ -24,9 +26,9 @@ public class BarValues : MonoBehaviour
 
         if (target.gameObject.tag == "Vegetable")
         {
-            addictionLevel--;
+            addictionLevel -= 3;
             health += 10;
-            stamina += 10;
+            stamina += 2;
         }
     }
 
@@ -43,10 +45,10 @@ public class BarValues : MonoBehaviour
 
         stamina -= Time.deltaTime * addictionLevel;
 
-        /*if (health < 1)
+        if (health < 1)
         {
             SceneManager.LoadScene(2);
-        }*/
+        }
 
         if (addictionLevel < 0)
         {
@@ -57,7 +59,7 @@ public class BarValues : MonoBehaviour
         {
             for (int i = 0; i < addictionLevel; i++)
             {
-                health -= 1;
+                health -= 2;
             }
 
             stamina = maxStamina;
@@ -66,6 +68,11 @@ public class BarValues : MonoBehaviour
         if (stamina > maxStamina)
         {
             stamina = maxStamina;
+        }
+
+        if (health > maxHealth)
+        {
+            health = maxHealth;
         }
     }
 }

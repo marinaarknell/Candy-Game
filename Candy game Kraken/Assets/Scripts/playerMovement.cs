@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class playerMovement : MonoBehaviour
 {
@@ -26,9 +27,9 @@ public class playerMovement : MonoBehaviour
     {
         rb2d.MovePosition(rb2d.position + movement);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Candy")
-            Destroy(this.gameObject);
+        GetComponent<AudioSource>().Play();
     }
 }

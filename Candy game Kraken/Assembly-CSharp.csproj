@@ -62,9 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HealthBarValues.cs" />
     <Compile Include="Assets\Scripts\BarValues.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\HealthBarValues.cs" />
+    <Compile Include="Assets\Scripts\Scene.cs" />
     <Compile Include="Assets\Scripts\barsValues.cs" />
     <Compile Include="Assets\Scripts\candyMovement.cs" />
     <Compile Include="Assets\Scripts\destroyObject.cs" />
