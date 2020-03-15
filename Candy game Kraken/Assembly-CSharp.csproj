@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\candyMovement.cs" />
     <Compile Include="Assets\Scripts\destroyObject.cs" />
     <Compile Include="Assets\Scripts\playerMovement.cs" />
+    <Compile Include="Assets\Scripts\song.cs" />
     <Compile Include="Assets\Scripts\spawnCandy.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Stuff/Games n shit/Game Projects/Candy Game/Candy-Game/Candy game Kraken/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

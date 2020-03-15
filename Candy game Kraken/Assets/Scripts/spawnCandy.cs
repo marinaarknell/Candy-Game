@@ -14,8 +14,8 @@ public class spawnCandy : MonoBehaviour
     {
         if (Time.time > nextSpawn)
         {
-            whatToSpawn = Random.Range(1, 6);
-            //Debug.Log(whatToSpawn);
+            whatToSpawn = Random.Range(1, 7);
+            Debug.Log(whatToSpawn);
 
             switch (whatToSpawn)
             {

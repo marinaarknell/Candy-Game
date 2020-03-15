@@ -10,6 +10,12 @@ MonoImporter:
       type: 3}
   - prefab3: {fileID: 1034252908131061316, guid: 79a08d241090e074788fa5346ebd95b5,
       type: 3}
+  - prefab4: {fileID: 480717450973828628, guid: ce8027235981127438dfcf9ed3dd3d45,
+      type: 3}
+  - prefab5: {fileID: 4292101888579450241, guid: 3bc3f34562a830e4bbd1feaa755eab72,
+      type: 3}
+  - prefab6: {fileID: 665296813834716650, guid: b63075eb6eba35743a7f8cc824cb7523,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

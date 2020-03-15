@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class candyMovement : MonoBehaviour
 {
-    public float speed = 10.0f;
+    private float speed = 7f;
     private Rigidbody2D rb;
 
     void Start()

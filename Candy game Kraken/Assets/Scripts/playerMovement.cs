@@ -28,8 +28,11 @@ public class playerMovement : MonoBehaviour
         rb2d.MovePosition(rb2d.position + movement);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        GetComponent<AudioSource>().Play();
+        if (collision.gameObject.tag == "Sugar" || collision.gameObject.tag == "Vegetable")
+        {
+            GetComponent<AudioSource>().Play();
+        }
     }
 }

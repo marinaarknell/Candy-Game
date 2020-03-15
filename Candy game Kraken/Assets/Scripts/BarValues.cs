@@ -43,7 +43,7 @@ public class BarValues : MonoBehaviour
 
         Bar.SetHealth(health);
 
-        stamina -= Time.deltaTime * addictionLevel;
+        stamina -= Time.deltaTime * (addictionLevel + 1);
 
         if (health < 1)
         {
