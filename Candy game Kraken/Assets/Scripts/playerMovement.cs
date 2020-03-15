@@ -10,6 +10,10 @@ public class playerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    public bool isMoving;
+
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +30,33 @@ public class playerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb2d.MovePosition(rb2d.position + movement);
+
+        if (Mathf.Abs(movement.x) > 0 || Mathf.Abs(movement.y) > 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        if (isMoving == true)
+        {
+            animator.SetBool("Moving", true);
+        }
+        else
+        {
+            animator.SetBool("Moving", false);
+        }
+
+        if (movement.x < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (movement.x > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
